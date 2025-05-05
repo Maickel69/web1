@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de Clases</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .libre {
+            background-color: #ffffff; /* Verde claro */
+        }
+        .almuerzo {
+            background-color: #f9d9d9; /* Rojo claro */
+        }
+        .matematicas {
+            background-color: #ffff99; /* Amarillo */
+        }
+        .quimica {
+            background-color: #ffcc99; /* Naranja claro */
+        }
+        .lenguaje {
+            background-color: #99ccff; /* Azul claro */
+        }
+        .civica {
+            background-color: #ff99cc; /* Rosa claro */
+        }
+        .poo {
+            background-color: #ccffcc; /* Verde pastel */
+        }
+        .fisica {
+            background-color: #ffccff; /* Lila claro */
+        }
+        .desarrollo {
+            background-color: #ccccff; /* Azul pastel */
+        }
+        .calidad {
+            background-color: #ffcccc; /* Rojo pastel */
+        }
+        .dssl {
+            background-color: #ccffff; /* Celeste pastel */
+        }
+        .base-datos {
+            background-color: #ff9999; /* Rojo claro (Base de Datos I) */
+        }
+        .intro-informatica {
+            background-color: #ff6666; /* Rojo más oscuro (Introducción a la Informática) */
+        }
+        .algoritmos {
+            background-color: #ffffcc; /* Amarillo claro (Algoritmos) */
+        }
+    </style>
+</head>
+<body>
+    <h1>Horario de Clases</h1>
+    <table border="">
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>07:00 - 07:59</td>
+                <td rowspan="2" class="matematicas">Matemáticas</td>
+                <td rowspan="2" class="quimica">Química</td>
+                <td rowspan="2" class="matematicas">Matemáticas</td>
+                <td rowspan="2" class="lenguaje">Lenguaje y Comunicación</td>
+                <td rowspan="2" class="civica">Cívica</td>
+            </tr>
+            <tr>
+                <td>08:00 - 08:59</td>
+                
+            </tr>
+            <tr>
+                <td>09:00 - 09:59</td>
+                <td rowspan="2" class="algoritmos">Algoritmos</td>
+                <td rowspan="2" class="libre">Libre</td>
+                <td rowspan="2" class="poo">POO</td>
+                <td rowspan="2" class="algoritmos">Algoritmos</td>
+                <td rowspan="2" class="base-datos">Base de Datos I</td>
+            </tr>
+            <tr>
+                <td>10:00 - 10:59</td>
+            </tr>
+            <tr>
+                <td>11:00 - 11:59</td>
+                <td rowspan="2" class="base-datos">Base de Datos I</td>
+                <td rowspan="2" class="intro-informatica">Introducción a la Informática</td>
+                <td rowspan="2" class="fisica">Filosofia</td>
+                <td rowspan="2" class="libre">Libre</td>
+                <td rowspan="2"class="poo">POO</td>
+            </tr>
+            <tr>
+                <td>12:00 - 12:59</td>
+             </tr>
+            <tr>
+                <td>13:00 - 13:59</td>
+                <td colspan="5" class="almuerzo">Almuerzo</td>
+            </tr>
+            <tr>
+                <td>14:00 - 14:59</td>
+                <td rowspan="3"class="desarrollo">Desarrollo Web I</td>
+                <td rowspan="3"class="libre">Libre</td>
+                <td rowspan="5"class="libre">Libre</td>
+                <td class="libre">Libre</td>
+                <td rowspan="7" class="libre">Libre</td>
+            </tr>
+            <tr>
+                <td>15:00 - 15:59</td>
+                <td rowspan="2" class="desarrollo">Desarrollo</td>
+            </tr>
+            <tr>
+                <td>16:00 - 16:59</td>
+
+            </tr>
+            <tr>
+                <td>17:00 - 17:59</td>
+                <td rowspan="2"class="libre">Libre</td>
+                <td rowspan="2"class="calidad">Calidad Aplicada a SI</td>
+            
+                <td rowspan="2"class="calidad">Calidad Aplicada a SI</td>
+            </tr>
+            <tr>
+                <td>18:00 - 18:59</td>             
+                
+            </tr>
+            <tr>
+                <td>19:00 - 19:59</td>
+                <td rowspan="2"class="dssl">DSSL</td>
+                <td rowspan="2"class="libre">Libre</td>
+                <td rowspan="2"class="dssl">DSSL</td>
+                <td rowspan="2"class="libre">Libre</td>
+            </tr>
+            <tr>
+                <td>20:00 - 20:59</td>
+                
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
