@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fdf5f5;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+
+        header .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        header .logo img {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        header .logout {
+            color: #e63946;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .breadcrumb {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb a {
+            color: #e63946;
+            text-decoration: none;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e63946;
+            margin-bottom: 20px;
+        }
+
+        .info-box {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .info-box p {
+            margin: 5px 0;
+        }
+
+        .info-box button {
+            background: #e63946;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .grid-item {
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+        .grid-item img {
+            width: 40px;
+            margin-bottom: 10px;
+        }
+
+        .grid-item span {
+            display: block;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .sidebar {
+            margin-top: 20px;
+        }
+
+        .sidebar h3 {
+            font-size: 18px;
+            color: #e63946;
+            margin-bottom: 10px;
+        }
+
+        .sidebar p {
+            font-size: 14px;
+            color: #888;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #ddd;
+        }
+
+        footer .current-course {
+            font-size: 14px;
+        }
+
+        footer .current-course span {
+            font-weight: bold;
+        }
+
+        footer .contact {
+            background: #e63946;
+            color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="home-icon.png" alt="Home">
+            <a href="#" class="logout">Cerrar Sesión</a>
+        </div>
+    </header>
+    <main>
+        <div class="breadcrumb">
+            Inicio / <a href="#">CLOUD COMPUTING</a>
+        </div>
+        <div class="title">CLOUD COMPUTING</div>
+        <div class="info-box">
+            <p><strong>Responsable de asignatura:</strong> NAVARRO VEGA, JOSE CARLOS</p>
+            <p><strong>Sección:</strong> A</p>
+            <button>Ver sílabo</button>
+        </div>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="folder-icon.png" alt="Unidades">
+                <span>Unidades</span>
+            </div>
+            <div class="grid-item">
+                <img src="exam-icon.png" alt="Exámenes">
+                <span>Exámenes</span>
+            </div>
+            <div class="grid-item">
+                <img src="forum-icon.png" alt="Foros">
+                <span>Foros</span>
+            </div>
+            <div class="grid-item">
+                <img src="lecture-icon.png" alt="Lecturas">
+                <span>Lecturas</span>
+            </div>
+            <div class="grid-item">
+                <img src="task-icon.png" alt="Tareas">
+                <span>Tareas</span>
+            </div>
+            <div class="grid-item">
+                <img src="grades-icon.png" alt="Calificaciones">
+                <span>Calificaciones</span>
+            </div>
+            <div class="grid-item">
+                <img src="calendar-icon.png" alt="Calendario">
+                <span>Calendario</span>
+            </div>
+            <div class="grid-item">
+                <img src="chat-icon.png" alt="Chat">
+                <span>Chat</span>
+            </div>
+            <div class="grid-item">
+                <img src="group-icon.png" alt="Grupos">
+                <span>Grupos</span>
+            </div>
+            <div class="grid-item">
+                <img src="video-icon.png" alt="Videoconferencias">
+                <span>Videoconferencias</span>
+            </div>
+            <div class="grid-item">
+                <img src="wiki-icon.png" alt="Wiki">
+                <span>Wiki</span>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h3>Anuncios</h3>
+            <p>No hay anuncios registrados</p>
+            <h3>Fechas</h3>
+            <p>No hay fechas importantes</p>
+        </div>
+    </main>
+    <footer>
+        <div class="current-course">
+            CURSO ACTUAL: <span>DESARROLLO DE APLICACIONES WEB I</span>
+        </div>
+        <div class="contact">✉</div>
+    </footer>
+</body>
+</html>
